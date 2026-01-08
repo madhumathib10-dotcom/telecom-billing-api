@@ -1,0 +1,72 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.eggs/
+
+# ===========================================
+# Virtual environments
+# ===========================================
+env/
+venv/
+.venv/
+.env/
+
+# ===========================================
+# FastAPI specific
+# ===========================================
+instance/
+*.db
+*.sqlite3
+
+# ===========================================
+# Env & Secrets
+# ===========================================
+.env
+*.env
+.env.*
+
+# ===========================================
+# Docker
+# ===========================================
+docker-data/
+docker-volume/
+docker-compose.override.yml
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+.vscode/
+.idea/
+*.swp
+
+# ===========================================
+# OS files
+# ===========================================
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# Logs & Cache
+# ===========================================
+*.log
+logs/
+*.pid
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
